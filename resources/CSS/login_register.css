@@ -1,0 +1,36 @@
+body{
+	background: url(http://localhost:3000/images/loginBackground.png);
+    position: relative;
+    height: 100%;
+}
+.login-container{
+    position: relative;
+    height: 50%; 
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff; 
+    border: 1px solid #ccc;
+
+}
+.form-box input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    height:40px;
+    border: 1px solid #ccc;;
+    background: #fafafa;
+}
+h1 {
+	text-align: center;
+}
+.well {
+	background: url(http://localhost:3000/images/shattered.png);
+	padding: 50px;
+	margin-top: 50px; 
+	margin-right: 20%;
+	margin-left: 20%; 
+}
+#regMes{
+	margin-top: 10px; 
+}

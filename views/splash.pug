@@ -1,0 +1,52 @@
+extends template 
+block title 
+	title TwitTube - HomePage
+block head_extra
+	link(rel="stylesheet",type="text/css",href="/CSS/splash.css")
+block body_extra
+	div(class="well col-md-12" id="mainContent")
+		div(id="title")
+			span(id="title1") Twit#[span(id="title2") Tube]
+		
+		div(class="well col-md-2",id="nav_table_well")
+			table(class="table", id="nav_table")
+				thead
+					tr
+						th Navigation
+				tbody
+					tr
+						td 
+							a(href="/homepage") Home
+					tr
+						td 
+							a(href="/profile") Profile 
+					tr
+						td 
+							a(href="/logout") Logout
+					
+		div(class="well col-md-5 video_frame")
+			iframe(class="col-md-12",width="500",height="400",src="/images/frameDefault.png",id="video_frame")
+		
+		div(class="well col-md-5",id="tweet_table_well")
+			table(class="table", id="tweet_table")
+				thead
+					tr
+						th Tweets #[img(src="/images/refresh.png", alt="Refresh Button", hieght="25", width="25", id="refresh_tweets")]
+				tbody
+					tr
+						td 
+							ul(class="list-group",id="tweet_list")
+								
+				
+					
+
+
+		div(class="well col-md-12 instructions")
+			h2 Instructions
+			p.
+				Tweet a search term with the hastag "#csc365" and watch
+				it appear in the tweets que on the page. If you like the 
+				search term of the tweet, you can either play the video
+				or save the video to your profile.
+
+	script(src="/JS/splash.js")

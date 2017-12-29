@@ -1,0 +1,32 @@
+extends template 
+block title 
+	title TwitTube - HomePage
+block head_extra
+	link(rel="stylesheet",type="text/css",href="/CSS/splash.css")
+	link(rel="stylesheet",type="text/css",href="/CSS/profile.css")
+block body_extra
+	div(class="well col-md-12" id="mainContent")
+		div(id="title")
+			span(id="title1") Pro#[span(id="title2") File]
+		
+		div(class="well col-md-2",id="nav_table_well")
+			table(class="table", id="nav_table")
+				thead
+					tr
+						th Navigation
+				tbody
+					tr
+						td 
+							a(href="/homepage") Home
+					tr
+						td 
+							a(href="/profile") Profile 
+					tr
+						td 
+							a(href="/logout") Logout
+					
+		div(class="well col-md-10 video_frame" id="video_frame")
+			ul(class="list-group", id="video_frame_list")
+				iframe(class="col-md-12",width="500",height="400",src="/images/frameDefault.png")
+			
+	script(src="/JS/profile.js")

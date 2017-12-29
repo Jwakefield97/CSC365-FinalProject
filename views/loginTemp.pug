@@ -1,0 +1,34 @@
+extends template
+block title 
+	title #{title} 
+block head_extra
+	link(rel="stylesheet",type="text/css",href="/CSS/login_register.css")
+block body_extra 
+	div(class="well")
+		div(class="login-container")
+			div(id="login-menu")
+				ul(class="nav nav-tabs")
+					li(class="active")
+						a(href= homeTabPath) #{homeTab}
+					li 
+						a(href= secondaryTabPath) #{secondaryTab}
+			div(class="form-box")
+				form(action= httpAction, method="post" id="loginForm")
+					input(name="username",type="text",placeholder="username")
+					input(name="password",type="password",placeholder="password")
+					button(class="btn btn-info btn-block login",type="submit", id="submitButton") #{submitButton}
+					div #{bottomMessage}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

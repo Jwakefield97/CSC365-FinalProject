@@ -1,0 +1,40 @@
+body {
+	background-image: url("http://localhost:3000/images/loginBackground.png")
+}
+#tweet_table_well {
+	overflow-y: scroll; 
+	height: 442px ;
+	border: 2px solid skyblue;
+}
+#nav_table_well {
+	height: 442px;
+}
+#video_frame {
+	padding: 0; 
+}
+.video_frame{
+	border: 2px solid red;
+}
+#title1 { 
+	padding: 20px;
+	padding-right: 0px;
+	border: 1px solid skyblue;
+	background-color: red; 
+	color: skyblue;
+}
+#title2 { 
+	padding: 20px;
+	border: 1px solid red;
+	color: red;
+	background-color: skyblue;  
+}
+#title {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center; 
+	font-weight: bold;
+	font-size: 100px;
+}
+.instructions {
+	text-align: center;
+}
