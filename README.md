@@ -7,4 +7,4 @@ Final project for CSC365 Internet programming; taken in spring of 2017.
 # To run this project: 
   * Place your youtube api credentials in the file modules/formatURL.js where it says "YOUR API CRED HERE"
   * Place your twitter api credentials in the file modules/apiCred.js. 
-  * Run the command "npm install" to install the necessary dependcies.
+  * Run the command "npm install" to install the necessary dependencies.
